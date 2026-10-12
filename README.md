@@ -9,6 +9,9 @@ The design target is urban and street-inspired but polished, with independently 
 
 > **Build status:** this repository starts with editable project source and a Blender blockout generator. It is **not yet a compiled, game-ready MLO**. Production deployment requires Blender + Sollumz asset authoring, CodeWalker validation, real-world coordinate placement, and in-game FiveM tests.
 
+## Start the current sprint
+See [`docs/IMMEDIATE_NEXT_STEPS.md`](docs/IMMEDIATE_NEXT_STEPS.md) for the exact survey-first steps. A temporary coordinate helper is included at [`devtools/shopcoords/`](devtools/shopcoords/README.md); use it only on your test server and remove it after surveying.
+
 ## Accelerated MVP plan
 See [`docs/8_HOUR_MVP_SPRINT.md`](docs/8_HOUR_MVP_SPRINT.md) for the eight-hour prototype sprint. Since Blender and Sollumz are available but CodeWalker is not, use the tailored [`docs/8_HOUR_PLAN_NO_CODEWALKER.md`](docs/8_HOUR_PLAN_NO_CODEWALKER.md) workflow. These plans are best-effort schedules, not guarantees of game-ready completion.
 
