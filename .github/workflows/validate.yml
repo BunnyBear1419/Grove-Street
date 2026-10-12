@@ -1,0 +1,21 @@
+name: Validate Grove Street MLO scaffold
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        name: Check out repository
+      - uses: actions/setup-python@v5
+        name: Set up Python
+        with:
+          python-version: "3.12"
+      - name: Validate source scaffold
+        run: python tools/validate_project.py
+      - name: Check whitespace errors
+        run: git diff --check
