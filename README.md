@@ -10,7 +10,7 @@ The design target is urban and street-inspired but polished, with independently 
 > **Build status:** this repository starts with editable project source and a Blender blockout generator. It is **not yet a compiled, game-ready MLO**. Production deployment requires Blender + Sollumz asset authoring, CodeWalker validation, real-world coordinate placement, and in-game FiveM tests.
 
 ## Accelerated MVP plan
-See [`docs/8_HOUR_MVP_SPRINT.md`](docs/8_HOUR_MVP_SPRINT.md) for a strict eight-hour prototype sprint, acceptance gates, and scope limits. This is a best-effort plan, not a guarantee of game-ready completion.
+See [`docs/8_HOUR_MVP_SPRINT.md`](docs/8_HOUR_MVP_SPRINT.md) for the eight-hour prototype sprint. Since Blender and Sollumz are available but CodeWalker is not, use the tailored [`docs/8_HOUR_PLAN_NO_CODEWALKER.md`](docs/8_HOUR_PLAN_NO_CODEWALKER.md) workflow. These plans are best-effort schedules, not guarantees of game-ready completion.
 
 ## Partner concept presentation
 See [`docs/CONCEPT_GALLERY.md`](docs/CONCEPT_GALLERY.md) for the partner-facing gallery page and image checklist. Concept images will be labelled clearly and kept separate from verified in-game screenshots.
