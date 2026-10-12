@@ -1,0 +1,11 @@
+# Blender backups and generated local files
+*.blend1
+*.blend2
+*.blend~
+blender/grove_street_dual_shop_blockout.blend
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Keep game-ready assets out of source control until reviewed; do not ignore
+# the final stream/data assets once they are ready to ship.
